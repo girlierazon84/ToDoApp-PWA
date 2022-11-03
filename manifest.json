@@ -2,7 +2,7 @@
     "name": "My - To - Do - List",
     "short_name": "Todo App",
     "description": "Web application Todo List",
-    "start_url": "http://localhost:3000/index.html",
+    "start_url": "https://girlierazon84.github.io/PWAToDoApp/",
     "theme_color": "#317EFB",
     "background_color": "#317EFB",
     "display": "minimal-ui",
