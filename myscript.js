@@ -48,7 +48,7 @@ function show() {
 
 	var html = '<ul>';
 	for(var i=0; i<todos.length; i++) {
-		html += '<li>' + todos[i] + '<button class="remove" id="' + i + '">Delete</button></li>';
+		html += '<li>' + todos[i] + '<button class="remove" id="' + i + '">X</button></li>';
 	};
 	html += '</ul>';
 
@@ -62,3 +62,15 @@ function show() {
 
 document.getElementById('add').addEventListener('click', add);
 show();
+
+const add__btn = document.getElementById('add');
+
+add__btn.addEventListener('click', function handleClick(event) {
+	event.preventDefault();
+
+	const textInput = document.getElementById('task');
+	
+	console.log (textInput.value);
+
+	textInput.value = "";
+});

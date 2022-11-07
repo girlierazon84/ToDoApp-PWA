@@ -1,21 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0-ui"/>
-		<meta name="theme-color" content="#317EFB"/>
-		<title>My - To - Do - List</title>
-		<link rel="manifest" href="./manifest.json">
-		<link rel="apple-touch-icon" href="/public/icons/icon-128.png">
-		<link rel="stylesheet" type="text/css" href="mystyle.css">
-	</head>
-	<body>
-		<div id="wrapper">
-			<h1>My To Do List</h1>
-			<input id="task"><button id="add">Add Task</button>
-			<!--<hr>-->
-			<div id="todos"></div>
-		</div>
-		<script src="myscript.js"></script>
-	</body>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0-ui" />
+	<meta name="theme-color" content="#317EFB" />
+	<title>My TODO App</title>
+	<link rel="icon" href="./icons/favicon.ico" />
+	<link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="icons/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+	<link rel="manifest" href="./manifest.json">
+	<link rel="apple-touch-icon" href="/public/icons/icon-128.png">
+	<link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+
+<body>
+	<div class="nav__logo">
+		<img src="./image/NavLogo.png" />
+	</div>
+	<div class="input__btn">
+		<input type="text" id="task" placeholder="write down your task here!...">
+		<button id="add" type="submit">Add Task</button>
+	</div>
+	<div id="todos"></div>
+
+	<script src="myscript.js"></script>
+</body>
+
 </html>
